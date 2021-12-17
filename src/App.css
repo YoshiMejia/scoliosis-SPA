@@ -13,6 +13,11 @@
   }
 }
 
+.type_pic {
+    height: 500px;
+      width: 700px; 
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
