@@ -1,16 +1,27 @@
 import React from 'react';
 import types_of_scoly from '../types_of_scoly.jpeg';
 import { Thoracic } from '../components/Thoracic';
+import { Lumbar } from '../components/Lumbar';
+
 
 class TypesContainer extends React.Component {
     state = {
-        showThoracic: false
+        showThoracic: false,
+        showLumbar: false
     }
 
-    hideForm = () => {
-        this.setState({
-            showThoracic: !this.state.showThoracic
-        })
+    hideForm = (e) => {
+        if (e.target.className === 'thoracic-button'){
+            this.setState({
+                ...this.state,
+                showThoracic: !this.state.showThoracic
+            })
+        } else if (e.target.className === 'lumbar-button'){
+            this.setState({
+                ...this.state,
+                showLumbar: !this.state.showLumbar
+            })
+        }
     }
        
     render(){
@@ -21,6 +32,9 @@ class TypesContainer extends React.Component {
 
                     <p className='thoracic-button' onClick={this.hideForm}>Thoracic Curve</p>
                         {this.state.showThoracic && <Thoracic />}
+                <br />
+                    <p className='lumbar-button' onClick={this.hideForm}>Lumbar Curve</p>
+                        {this.state.showLumbar && <Lumbar />}
                     {/* 
                     container will hold Types.js which will be components of data holding info on each curve in the photo. 
 
