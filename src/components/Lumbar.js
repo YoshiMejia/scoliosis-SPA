@@ -9,20 +9,20 @@ export function Lumbar(){
                 Furthermore, lumbar scoliosis occurs most frequently in the lower back because of degeneration.  In addition, It is not uncommon for older adults, people older than 65, to have this condition. We usually see this condition with spinal stenosis, or narrowing of the spinal canal.  Typically, spinal stenosis pinches the spinal nerves, and thus, makes it difficult for them to function properly. Moreover, our doctors find that back pain occurs with scoliosis in the lumbar region and begins gradually with activity. In conclusion, the curvature of the spine can appear relatively minor, so surgery only occurs when conservative methods fail to stop the pain.
                 <br />
                 </p>
-                <h2>Scoliosis Symptoms</h2>
+            <h2>Scoliosis Symptoms</h2>
                 <p>To clarify, the symptoms of lumbar scoliosis differ from person to person and depend on a number of factors.  Also, these include age, the severity of the curve, the location of the curve, and more. Some patients experience little to no scoliosis pain even after years with the condition, while others experience pain right away.
                 <br />
                 Some symptoms of lower back scoliosis include:
                 <br />
                 </p>
-                <ul>
-<li>Uneven shoulders</li>
-Unusually raised hips</li>
-Uneven rib cage alignment</li>
-Uneven waist</li>
-Body leaning to one side</li>
-Back pain</li>
-</ul>
+            <ul>
+                <li>Uneven shoulders</li>
+                <li>Unusually raised hips</li>
+                <li>Uneven rib cage alignment</li>
+                <li>Uneven waist</li>
+                <li>Body leaning to one side</li>
+                <li>Back pain</li>
+            </ul>
         </div>
     )
 }
