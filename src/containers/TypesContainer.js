@@ -2,27 +2,55 @@ import React from 'react';
 import types_of_scoly from '../types_of_scoly.jpeg';
 import { Thoracic } from '../components/Thoracic';
 import { Lumbar } from '../components/Lumbar';
-
+import { Thoracolumbar } from '../components/Thoracolumbar';
 
 class TypesContainer extends React.Component {
     state = {
         showThoracic: false,
-        showLumbar: false
+        showLumbar: false,
+        showThoracolumbar: false
     }
 
     hideForm = (e) => {
-        if (e.target.className === 'thoracic-button'){
-            this.setState({
-                ...this.state,
-                showThoracic: !this.state.showThoracic
-            })
-        } else if (e.target.className === 'lumbar-button'){
-            this.setState({
-                ...this.state,
-                showLumbar: !this.state.showLumbar
-            })
+        switch(e.target.className){
+            case 'thoracic-button':
+                this.setState({
+                    ...this.state,
+                    showThoracic: !this.state.showThoracic
+                })
+                break;
+            case 'lumbar-button':
+                this.setState({
+                    ...this.state,
+                    showLumbar: !this.state.showLumbar
+                })
+                break;
+            case 'thoracolumbar-button':
+                this.setState({
+                    ...this.state,
+                    showThoracolumbar: !this.state.showThoracolumbar
+                })
+                break;
+            default: 
+                console.log("unknown category");
+                break;
         }
+
     }
+
+    // hideForm = (e) => {
+    //     if (e.target.className === 'thoracic-button'){
+    //         this.setState({
+    //             ...this.state,
+    //             showThoracic: !this.state.showThoracic
+    //         })
+    //     } else if (e.target.className === 'lumbar-button'){
+    //         this.setState({
+    //             ...this.state,
+    //             showLumbar: !this.state.showLumbar
+    //         })
+    //     }
+    // }
        
     render(){
         return(
@@ -32,9 +60,10 @@ class TypesContainer extends React.Component {
 
                     <p className='thoracic-button' onClick={this.hideForm}>Thoracic Curve</p>
                         {this.state.showThoracic && <Thoracic />}
-                <br />
                     <p className='lumbar-button' onClick={this.hideForm}>Lumbar Curve</p>
                         {this.state.showLumbar && <Lumbar />}
+                    <p className='thoracolumbar-button' onClick={this.hideForm}>Thoracolumbar Curve</p>
+                        {this.state.showThoracolumbar && <Thoracolumbar />}
                     {/* 
                     container will hold Types.js which will be components of data holding info on each curve in the photo. 
 
