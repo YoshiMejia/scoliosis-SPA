@@ -2,13 +2,25 @@ import React from 'react';
 import types_of_scoly from '../types_of_scoly.jpeg';
 import { Thoracic } from '../components/Thoracic';
 
-   class TypesContainer extends React.Component {
+class TypesContainer extends React.Component {
+    state = {
+        showThoracic: false
+    }
+
+    hideForm = () => {
+        this.setState({
+            showThoracic: !this.state.showThoracic
+        })
+    }
+       
     render(){
         return(
             <div id="types-container">
                 <h1>Types of Scoliosis</h1>
                     {<img src={types_of_scoly} alt="types_of_scoliosis" className='type_pic'/>}
-                        <Thoracic />
+
+                    <p className='thoracic-button' onClick={this.hideForm}>Thoracic Curve</p>
+                        {this.state.showThoracic && <Thoracic />}
                     {/* 
                     container will hold Types.js which will be components of data holding info on each curve in the photo. 
 
