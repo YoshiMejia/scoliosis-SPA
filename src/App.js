@@ -1,17 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
-// import { TypesContainer } from './containers/TypesContainer';
+import React from 'react';
 import Navbar from './components/Navbar';
 
-function App() {
-  return (
+export default class App extends React.Component {
+
+  render(){
+    return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
-
+        <Navbar store={this.props.store} />
       </header>
     </div>
-  );
-}
+    );
+  }
 
-export default App;
+}
