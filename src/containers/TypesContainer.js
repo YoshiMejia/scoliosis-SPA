@@ -37,20 +37,6 @@ class TypesContainer extends React.Component {
         }
 
     }
-
-    // hideForm = (e) => {
-    //     if (e.target.className === 'thoracic-button'){
-    //         this.setState({
-    //             ...this.state,
-    //             showThoracic: !this.state.showThoracic
-    //         })
-    //     } else if (e.target.className === 'lumbar-button'){
-    //         this.setState({
-    //             ...this.state,
-    //             showLumbar: !this.state.showLumbar
-    //         })
-    //     }
-    // }
        
     render(){
         return(
@@ -65,9 +51,7 @@ class TypesContainer extends React.Component {
                     <p className='thoracolumbar-button' onClick={this.hideForm}>Thoracolumbar Curve</p>
                         {this.state.showThoracolumbar && <Thoracolumbar />}
                     {/* 
-                    container will hold Types.js which will be components of data holding info on each curve in the photo. 
-
-                    onClick of each link, an info box will open up and hold more info on each curve. there will be links to the excercises for each Type.
+                    add links to the excercises for each Type.
                     
                     */}
             </div>
