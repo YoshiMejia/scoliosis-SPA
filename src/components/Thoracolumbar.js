@@ -1,3 +1,4 @@
+// check if thoracolumbar is the same as Levoscoliosis 
 export function Thoracolumbar (){
     return (
         <div className="thoracolumbar-div">
