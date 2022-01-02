@@ -8,7 +8,7 @@ export function Bibliography(){
             <ul>
                 <li>Thoracic data is from <a href={'https://scoliosisinstitute.com/thoracic-scoliosis/'}>Scoliosis Institute</a> </li>
                 <li>Lumbar Data is from <a href={'https://scoliosisinstitute.com/lumbar-scoliosis/'}>Scoliosis Institute</a> </li>
-                <li> </li>
+                <li>Types Bio data is from <a href ={'https://www.treatingscoliosis.com/blog/scoliosis-types-differences/#what_sets_the_different_types_of_scoliosis_apart'}>Treating Scoliiosis website</a></li>
             </ul>
         </div>
     )
