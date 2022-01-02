@@ -18,6 +18,11 @@
       width: 700px; 
 }
 
+.workouts_pic {
+    height: 400px;
+      width: 700px; 
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
