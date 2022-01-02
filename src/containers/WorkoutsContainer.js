@@ -1,4 +1,6 @@
 import React from 'react';
+import workout_spine from '../workout_spine.jpeg'
+
 
 class WorkoutsContainer extends React.Component {
     state = {
@@ -8,7 +10,8 @@ class WorkoutsContainer extends React.Component {
     render(){
         return(
             <div className='workouts-container'>
-                <h1>hello</h1>
+             {<img src={workout_spine} alt="workouts for scoliosis" className='workouts_pic'/>}
+
             </div>
         )
     }
