@@ -3,6 +3,8 @@ import types_of_scoly from '../types_of_scoly.jpeg';
 import { Thoracic } from '../components/Thoracic';
 import { Lumbar } from '../components/Lumbar';
 import { Thoracolumbar } from '../components/Thoracolumbar';
+// import { connect } from 'react-redux'
+
 
 class TypesContainer extends React.Component {
     state = {
@@ -50,13 +52,16 @@ class TypesContainer extends React.Component {
                         {this.state.showLumbar && <Lumbar />}
                     <p className='thoracolumbar-button' onClick={this.hideForm}>Thoracolumbar Curve</p>
                         {this.state.showThoracolumbar && <Thoracolumbar />}
-                    {/* 
-                    add links to the excercises for each Type.
-                    
-                    */}
             </div>
     )
 }
 
 }
+
+// mapState = state => {
+//     return{
+
+//     }
+// }
+// export default connect(null, mapDispatch)(TypesContainer)
 export default TypesContainer
