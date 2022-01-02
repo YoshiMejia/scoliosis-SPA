@@ -1,8 +1,8 @@
 import React from 'react';
 import types_of_scoly from '../types_of_scoly.jpeg';
-import { Thoracic } from '../components/Thoracic';
-import { Lumbar } from '../components/Lumbar';
-import { Thoracolumbar } from '../components/Thoracolumbar';
+import { Thoracic } from '../components/types_components/Thoracic';
+import { Lumbar } from '../components/types_components/Lumbar';
+import { Thoracolumbar } from '../components/types_components/Thoracolumbar';
 // import { connect } from 'react-redux'
 
 
