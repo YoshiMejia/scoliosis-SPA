@@ -1,8 +1,10 @@
 import React from 'react';
-import types_of_scoly from '../types_of_scoly.jpeg';
+// import types_of_scoly from '../types_of_scoly.jpeg';
+import workout_spine from '../workout_spine.jpeg';
 import { Thoracic } from '../components/types_components/Thoracic';
 import { Lumbar } from '../components/types_components/Lumbar';
 import { Thoracolumbar } from '../components/types_components/Thoracolumbar';
+import { TypesBio } from '../components/types_components/Types_Bio';
 // import { connect } from 'react-redux'
 
 
@@ -43,8 +45,10 @@ class TypesContainer extends React.Component {
     render(){
         return(
             <div id="types-container">
-                <h1>Types of Scoliosis</h1>
-                    {<img src={types_of_scoly} alt="types_of_scoliosis" className='type_pic'/>}
+                <br />
+                    {<img src={workout_spine} alt="workouts_pic" className='workouts_pic'/>}
+                < TypesBio/>
+                    {/* {<img src={types_of_scoly} alt="types_of_scoliosis" className='type_pic'/>} */}
 
                     <p className='thoracic-button' onClick={this.hideForm}>Thoracic Curve</p>
                         {this.state.showThoracic && <Thoracic />}
