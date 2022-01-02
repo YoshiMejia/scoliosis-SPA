@@ -1,6 +1,7 @@
 import React from 'react';
 import { About } from './About';
 import TypesContainer from '../containers/TypesContainer';
+import WorkoutsContainer from '../containers/WorkoutsContainer';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { Bibliography } from './Bibliography';
 
@@ -12,6 +13,7 @@ const Navbar = () => {
             <nav>
                 <Link to="/">About</Link> ||
                 <Link to="/types">Types of Scoliosis</Link> ||
+                <Link to="/workouts">Workouts for your Curve</Link> ||
                 <Link to="/bibliography">Site Credits</Link> ||
             <br />
             </nav>
@@ -21,6 +23,7 @@ const Navbar = () => {
             <Routes>
                 <Route path="/" element={<About />} />
                 <Route path="/types" element={<TypesContainer />} />
+                <Route path="/workouts" element={<WorkoutsContainer />} />
                 <Route path="/bibliography" element={<Bibliography />} />
             </Routes>
         </div>
