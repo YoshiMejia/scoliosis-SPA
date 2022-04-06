@@ -1,6 +1,11 @@
+import React from "react"
+import workout_spine from "../../media/workout_spine.jpeg"
+
+
 export function TypesBio(){
     return(
         <div className="types_bio">
+            {<img src={workout_spine} alt="workouts_pic" className='workouts_pic'/>}
             <h1>What Sets the Different Types of Scoliosis Apart?</h1>
 
             <p>There are many ways to determine the differences between the various forms of scoliosis.  The most common method uses etiology or the underlying cause for the condition. Most experts feel there are three categories of scoliosis:
