@@ -18,6 +18,7 @@ export default class App extends React.Component {
               <Route path="/" element={<About />} exact />
               <Route path="/bibliography" element={<Bibliography />} />
               <Route path="/types" element={<TypesContainer />}/>
+              <Route path="/types/:typeName" element={<TypesContainer />} />
             </Routes>
           </div>
         </div>
