@@ -5,6 +5,8 @@ import { About } from './components/About';
 import { Bibliography } from './components/Bibliography';
 import TypesContainer from './containers/TypesContainer';
 import Navbar from './components/Navbar';
+import { Lumbar } from './components/types_components/Lumbar';
+import WorkoutsContainer from './containers/WorkoutsContainer';
 
 export default class App extends React.Component {
 
@@ -17,8 +19,9 @@ export default class App extends React.Component {
             <Routes>
               <Route path="/" element={<About />} exact />
               <Route path="/bibliography" element={<Bibliography />} />
+              <Route path="/workouts" element={<WorkoutsContainer />} />
               <Route path="/types" element={<TypesContainer />}/>
-              <Route path="/types/:typeName" element={<TypesContainer />} />
+              <Route path="/types/lumbar" element={<Lumbar />} />
             </Routes>
           </div>
         </div>
