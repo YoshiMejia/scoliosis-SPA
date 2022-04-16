@@ -1,4 +1,11 @@
+import React, {useEffect} from "react";
+
 export function Lumbar(){
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
         <div className="lumbar-div">
             <h1>What is Lumbar Scoliosis?</h1>
