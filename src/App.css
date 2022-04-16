@@ -13,7 +13,7 @@
   }
 }
 
-.type_pic {
+.types_pic {
     height: 500px;
       width: 700px; 
 }
@@ -32,6 +32,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+ul {
+  list-style:none;
+  padding-left:0;
 }
 
 /*  */
