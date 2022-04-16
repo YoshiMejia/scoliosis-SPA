@@ -1,26 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from "react-router-dom";
-import { AllTypes } from '../components/types_components/AllTypes';
-// import types_of_scoly from '../types_of_scoly.jpeg';
-import { Thoracic } from '../components/types_components/Thoracic';
-import { Lumbar } from '../components/types_components/Lumbar';
-import { Thoracolumbar } from '../components/types_components/Thoracolumbar';
+import React from 'react';
 import { TypesBio } from '../components/types_components/Types_Bio';
 // import { connect } from 'react-redux'
 
-
 const TypesContainer = () => {
-
-const {typeName} = useParams();
-const typesBio = <TypesBio />
-const thoracic = <Thoracic />
-const lumbar = <Lumbar />
-const thoracolumbar = <Thoracolumbar />
 
     return(
         <>
-            {typesBio}
-            {/* <h1>{type}</h1> */}
+            {<TypesBio />}
         </>
     )
 }
