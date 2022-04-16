@@ -1,8 +1,8 @@
 import React from "react";
 
 export const About = () => (
-  <div style={{ padding: 20 }}>
-    <h1>Scoliosis Help Page</h1>
+  <div style={{ padding: 20, textAlign: "left" }}>
+    <h1>Scoliosis Advice</h1>
     <h3>Welcome!</h3>
     
     <p>This site is for anyone looking for help on managing their scoliosis.
