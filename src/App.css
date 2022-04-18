@@ -14,13 +14,14 @@
 }
 
 .types_pic {
-    height: 500px;
-      width: 700px; 
+  height: 500px;
+  width: 700px; 
 }
 
+
 .workouts_pic {
-    height: 400px;
-      width: 700px; 
+  height: 400px;
+  width: 700px; 
 }
 
 .App-header {
@@ -39,6 +40,10 @@ ul {
   padding-left:0;
 }
 
+#spine_pic {
+  height: 415px;
+  width: 155px; 
+}
 /*  */
 
 body {
@@ -94,7 +99,7 @@ nav a:hover {
 }
 
 #page-body {
-  max-width: 700px;
+  max-width: 900px;
   margin: auto;
   padding-top: 64px;
 }
