@@ -1,13 +1,33 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import types_of_scoly from '../../types_of_scoly.jpeg';
+import lumbar from '../../media/lumbar.png'
+import healthy from '../../media/healthy.png'
+import combined from '../../media/combined.png'
+import thoracic from '../../media/thoracic.png'
+import thoraco_lumbar from '../../media/thoraco_lumbar.png'
+
 
 export function TypesBio(){
 
     return(
         <div className="types_bio">
-            {<img src={types_of_scoly} alt="types_pic" className='types_pic'/>}
-
+        <h4>Choose one of the types below to learn more!</h4>
+            <Link to={"/types/healthy"}>
+                <img src={healthy} alt='healthy_pic' id="spine_pic"/>
+            </Link>
+            <Link to={"/types/lumbar"}>
+                <img src={lumbar} alt='lumbar_pic' id="spine_pic"/>
+            </Link>
+            <Link to={"/types/thoracic"}>
+                <img src={thoracic} alt='thoracic_pic' id="spine_pic"/>
+            </Link>
+            <Link to={"/types/thoraco_lumbar"}>
+                <img src={thoraco_lumbar} alt='thoraco_lumbar_pic' id="spine_pic"/>
+            </Link>
+            <Link to={"/types/combined"}>
+                <img src={combined} alt='combined_pic' id="spine_pic"/>
+            </Link>
+            
             <h1>What Sets the Different Types of Scoliosis Apart?</h1>
 
             <p>There are many ways to determine the differences between the various forms of scoliosis.  The most common method uses etiology or the underlying cause for the condition. Most experts feel there are three categories of scoliosis:
@@ -29,8 +49,6 @@ export function TypesBio(){
             Knowing how spinal curvatures are classified is important. It may provide a foundation of knowledge on how to treat a specific type of scoliosis.
             </p>
             <br />
-            <h4>Choose one of the types below to learn more!</h4>
-            <Link to={"/types/lumbar"}> Lumbar curve</Link>
         </div>
     )
 }
