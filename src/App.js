@@ -11,6 +11,7 @@ import { Healthy } from './components/types_components/Healthy';
 import { Thoracic } from './components/types_components/Thoracic';
 import { ThoracoLumbar } from './components/types_components/ThoracoLumbar';
 import WorkoutsContainer from './containers/WorkoutsContainer';
+import PlannersContainer from './containers/PlannersContainer';
 
 export default class App extends React.Component {
 
@@ -24,6 +25,7 @@ export default class App extends React.Component {
               <Route path="/" element={<About />} exact />
               <Route path="/bibliography" element={<Bibliography />} />
               <Route path="/workouts" element={<WorkoutsContainer />} />
+              <Route path="/planners" element={<PlannersContainer />} />
               <Route path="/types" element={<TypesContainer />}/>
               <Route path="/types/lumbar" element={<Lumbar />} />
               <Route path="/types/combined" element={<Combined />} />
