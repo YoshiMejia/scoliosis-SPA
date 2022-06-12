@@ -9,7 +9,7 @@ import { Lumbar } from './components/types_components/Lumbar';
 import { Combined } from './components/types_components/Combined';
 import { Healthy } from './components/types_components/Healthy';
 import { Thoracic } from './components/types_components/Thoracic';
-import { ThoracoLumbar } from './components/types_components/ThoracoLumbar';
+import { ThoracoLumbar } from './components/types_components/ThoracoLumbar.js';
 import WorkoutsContainer from './containers/WorkoutsContainer';
 import PlannersContainer from './containers/PlannersContainer';
 
