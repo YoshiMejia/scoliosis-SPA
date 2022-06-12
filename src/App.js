@@ -9,7 +9,7 @@ import { Lumbar } from './components/types_components/Lumbar';
 import { Combined } from './components/types_components/Combined';
 import { Healthy } from './components/types_components/Healthy';
 import { Thoracic } from './components/types_components/Thoracic';
-import { ThoracoLumbar } from './components/types_components/ThoracoLumbar';
+// import { ThoracoLumbar } from './components/types_components/ThoracoLumbar';
 import WorkoutsContainer from './containers/WorkoutsContainer';
 import PlannersContainer from './containers/PlannersContainer';
 
@@ -31,7 +31,7 @@ export default class App extends React.Component {
               <Route path="/types/combined" element={<Combined />} />
               <Route path="/types/healthy" element={<Healthy />} />
               <Route path="/types/thoracic" element={<Thoracic />} />
-              <Route path="/types/thoraco_lumbar" element={<ThoracoLumbar />} />
+              {/* <Route path="/types/thoraco_lumbar" element={<ThoracoLumbar />} /> */}
             </Routes>
           </div>
         </div>
