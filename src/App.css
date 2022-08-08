@@ -1,5 +1,7 @@
 .App{
   background-color: #cfcbca;
+  font-family: 'Comfortaa', cursive;
+
 }
 
 .types_pic {
@@ -30,6 +32,9 @@
 
 #main h2 {
   font-size: 50px;
+}
+
+#main p{
 }
 
 .navbar {
