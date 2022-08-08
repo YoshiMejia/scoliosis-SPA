@@ -1,16 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  background-color: #ee9b00;
 }
 
 .types_pic {
@@ -18,133 +7,48 @@
   width: 700px; 
 }
 
-
 .workouts_pic {
   height: 400px;
   width: 700px; 
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-ul {
-  list-style:none;
-  padding-left:0;
 }
 
 #spine_pic {
   height: 415px;
   width: 155px; 
 }
-/*  */
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
+/* welcome page  */
+
+#main {
+  background-color: #e76f51;
+  width: 80%;
+  height: fit-content;
+  border-radius: 20%;
+  margin-top: 30px;
+  padding: 50px;
 }
 
-button {
-  padding: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  background-color: black;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
+.navbar {
+  background-color: #2a9d8f;
+  width: fit-content;
+  left: 200px;
 }
 
-h3, h4 {
-  margin-bottom: 0;
+.navbar a {
+  color: #264653;
+  padding: 10px;
 }
 
-nav {
-  border-bottom: 4px solid black;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: white;
+.navbar a:hover {
+  color: #ee9b00;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+text {
+  font-style: italic;
 }
 
-nav li {
-  display: inline-block;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
+#nomore_sign {
+  height: 350px;
+  width: 350px;
 
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  padding: 16px 32px;
-}
-
-nav a:hover {
-  background: black;
-  color: white;
-}
-
-#page-body {
-  max-width: 900px;
-  margin: auto;
-  padding-top: 64px;
-}
-
-.article-list-item {
-  text-decoration: none;
-  color: black;
-  padding: 16px 0 0 0;
-}
-
-.article-list-item p {
-  padding-bottom: 32px;
-  border-bottom: 2px solid black;
-}
-
-#add-comment-form {
-  border-bottom: 2px solid black;
-  padding: 16px;
-}
-
-#add-comment-form h3 {
-  margin-bottom: 16px;
-}
-
-#add-comment-form input, textarea {
-  display: block;
-  width: 300px;
-  padding: 8px;
-  border-radius: 8px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
-  border: 2px solid black;
-  margin-bottom: 16px;
-}
-
-#add-comment-form button {
-  width: 320px;
-}
-
-#upvotes-section button, p {
-  display: inline-block;
-  margin-right: 16px;
-}
-
-.comment {
-  border-bottom: 2px solid black;
-  padding: 16px;
 }
