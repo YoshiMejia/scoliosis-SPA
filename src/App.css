@@ -24,10 +24,12 @@
   display: inline-block;
   clear: both;
   position: relative;
+  padding: 20px 20px;
+
 }
 
-#main h3 {
-  
+#main h2 {
+  font-size: 50px;
 }
 
 .navbar {
@@ -61,5 +63,12 @@ h1{
   height: 350px;
   width: 350px;
   float: left;
-  padding-right: 20px;
+  padding: 20px 20px;
+}
+
+#relief_sign {
+  height: 350px;
+  width: 350px;
+  float: right;
+  padding: 20px 20px;
 }
