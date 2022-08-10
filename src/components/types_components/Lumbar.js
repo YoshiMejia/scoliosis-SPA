@@ -11,7 +11,8 @@ export function Lumbar(){
             <div>
                 <h1 className="banner">What is Lumbar Scoliosis?</h1>
             </div>
-                <p>Lumbar spine, illustrationOf the several different kinds of Scoliosis, Lumbar Scoliosis appears as a C shaped curve in the lower section of the spine.  Also, this curve may occur by itself, or it may occur with thoracic scoliosis, which typically appears with an S shape to the spine as the two curves form in different directions.
+            <div className="lumbar_text">
+                <p>Of the several different kinds of Scoliosis, Lumbar Scoliosis appears as a C shaped curve in the lower section of the spine.  Also, this curve may occur by itself, or it may occur with thoracic scoliosis, which typically appears with an S shape to the spine as the two curves form in different directions.
                 <br />
                 In most cases, lower back scoliosis becomes apparent during early to mid-childhood. However, in cases of adult degenerative scoliosis, it may also occur along with or as the result of other related conditions.
                 <br />
@@ -33,5 +34,6 @@ export function Lumbar(){
                 <li>Back pain</li>
             </ul>
         </div>
+    </div>
     )
 }
