@@ -17,22 +17,24 @@ export function TypesBio(){
 
         <div id="main">
             <h4>Choose one of the types below to learn more!</h4>
-            <Link to={"/types/healthy"}>
-                <img src={healthy} alt='healthy_pic' id="spine_pic"/>
-            </Link>
-            <Link to={"/types/lumbar"}>
-                <img src={lumbar} alt='lumbar_pic' id="spine_pic"/>
-            </Link>
-            <Link to={"/types/thoracic"}>
-                <img src={thoracic} alt='thoracic_pic' id="spine_pic"/>
-            </Link>
-            <Link to={"/types/thoraco_lumbar"}>
-                <img src={thoraco_lumbar} alt='thoraco_lumbar_pic' id="spine_pic"/>
-            </Link>
-            <Link to={"/types/combined"}>
-                <img src={combined} alt='combined_pic' id="spine_pic"/>
-            </Link>
-            
+
+            <div id="types_links">
+                <Link to={"/types/healthy"}>
+                    <img src={healthy} alt='healthy_pic' id="spine_pic"/>
+                </Link>
+                <Link to={"/types/lumbar"}>
+                    <img src={lumbar} alt='lumbar_pic' id="spine_pic"/>
+                </Link>
+                <Link to={"/types/thoracic"}>
+                    <img src={thoracic} alt='thoracic_pic' id="spine_pic"/>
+                </Link>
+                <Link to={"/types/thoraco_lumbar"}>
+                    <img src={thoraco_lumbar} alt='thoraco_lumbar_pic' id="spine_pic"/>
+                </Link>
+                <Link to={"/types/combined"}>
+                    <img src={combined} alt='combined_pic' id="spine_pic"/>
+                </Link>
+            </div>
 
             <p>
             There are many ways to determine the differences between the various forms of scoliosis.  The most common method uses etiology or the underlying cause for the condition. Most experts feel there are three categories of scoliosis:
