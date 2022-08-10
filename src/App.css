@@ -115,16 +115,31 @@ h1.banner {
 .lumbar_text {
   text-align: center;
   width: 83%;
-  margin: 0 auto;
+margin: 0;
   padding-top: 50px;
+  left: 700px;
 }
 
 .lumbar_text ul {
-  width: 20%;
+  width: 30%;
   text-align: left;
   margin: 0 auto;
+  float: right;
 }
 
 .lumbar_div {
   height: 850px;
+}
+
+.lumbar_text h2{
+  background-color: #6b818c;
+  width: 500px;
+  margin: 0 90px;
+  float: right;
+  left: 40px;
+  padding: 10px;
+}
+
+.symptoms{
+  margin-bottom: 14px;
 }
