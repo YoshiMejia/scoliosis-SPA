@@ -41,6 +41,7 @@
   background-color: #d8ddde;
   width: fit-content;
   margin: 0 auto;
+  padding: 0;
 }
 
 .navbar a {
@@ -52,7 +53,7 @@
   color: #ee9b00;
 }
 
-h1{
+h1.banner {
   width: 100%;
   padding: 15px 0px;
   text-align: center;
@@ -64,6 +65,7 @@ h1{
   width: 50%;
 }
 
+/* site photos  */
 #nomore_sign {
   height: 350px;
   width: 350px;
@@ -78,17 +80,66 @@ h1{
   padding: 20px 20px;
 }
 
+#lumbar_skel {
+  height: 750px;
+  width: 700px;
+  float: left;
+  padding: 20px 20px;
+  opacity: 0.60;
+}
+
+/*  */
+#types_links{
+  width: fit-content;
+  margin: 0 auto;
+}
 
 #main h4{
  width: fit-content;
  margin: 0 auto;
+ padding-bottom: 20px;
 }
 
-.types_text {
+.types_text{
   text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .types_text ul {
   width: 10%;
+  margin: 0 auto;
+}
 
+.lumbar_text {
+  text-align: center;
+  width: 83%;
+margin: 0;
+  padding-top: 50px;
+  left: 700px;
+}
+
+.lumbar_text ul {
+  width: 30%;
+  text-align: left;
+  margin: 0 auto;
+  float: right;
+}
+
+.lumbar_div {
+  height: 850px;
+}
+
+.lumbar_text h2{
+  background-color: #6b818c;
+  width: 500px;
+  margin: 0 90px;
+  float: right;
+  left: 40px;
+  padding: 10px;
+}
+
+.symptoms{
+  margin-bottom: 14px;
 }

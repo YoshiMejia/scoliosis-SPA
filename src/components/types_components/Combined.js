@@ -1,7 +1,7 @@
 export function Combined(){
     return (
         <div className="combined-div">
-            <h1>Combined Scoliosis</h1>
+            <h1 className="banner">Combined Scoliosis</h1>
         </div>
     )
 } 
