@@ -77,3 +77,18 @@ h1{
   float: right;
   padding: 20px 20px;
 }
+
+
+#main h4{
+ width: fit-content;
+ margin: 0 auto;
+}
+
+.types_text {
+  text-align: center;
+}
+
+.types_text ul {
+  width: 10%;
+
+}
