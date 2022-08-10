@@ -5,7 +5,7 @@ import pain_relief from '../media/pain_relief.jpeg'
 export const About = () => (
   <div >
     <div>
-      <h1>Scoliosis Advice</h1>
+      <h1 className="banner">Scoliosis Advice</h1>
     </div>
 
   <div id="main">

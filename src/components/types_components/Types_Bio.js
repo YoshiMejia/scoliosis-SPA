@@ -12,7 +12,7 @@ export function TypesBio(){
     return(
         <div className="types_bio">
             <div>
-                <h1>What Sets the Different Types of Scoliosis Apart?</h1>
+                <h1 className="banner">What Sets the Different Types of Scoliosis Apart?</h1>
             </div>
 
         <div id="main">

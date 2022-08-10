@@ -1,7 +1,7 @@
 export function Healthy (){
     return (
         <div className="healthy-div">
-            <h1>healthy Scoliosis</h1>
+            <h1 className="banner">Healthy Spine</h1>
         </div>
     )
 } 

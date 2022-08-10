@@ -8,7 +8,7 @@ import workout_spine from "../media/workout_spine.jpeg"
    
     return(
         <div className='workouts-container'>
-            <h1>Workouts container</h1>
+            <h1 className="banner">Workouts container</h1>
                 <br />
             {<img src={workout_spine} alt="workouts for scoliosis" className='workouts_pic' />}
         </div>
