@@ -11,7 +11,12 @@ export function TypesBio(){
 
     return(
         <div className="types_bio">
-        <h4>Choose one of the types below to learn more!</h4>
+            <div>
+                <h1>What Sets the Different Types of Scoliosis Apart?</h1>
+            </div>
+
+        <div id="main">
+            <h4>Choose one of the types below to learn more!</h4>
             <Link to={"/types/healthy"}>
                 <img src={healthy} alt='healthy_pic' id="spine_pic"/>
             </Link>
@@ -28,9 +33,9 @@ export function TypesBio(){
                 <img src={combined} alt='combined_pic' id="spine_pic"/>
             </Link>
             
-            <h1>What Sets the Different Types of Scoliosis Apart?</h1>
 
-            <p>There are many ways to determine the differences between the various forms of scoliosis.  The most common method uses etiology or the underlying cause for the condition. Most experts feel there are three categories of scoliosis:
+            <p>
+            There are many ways to determine the differences between the various forms of scoliosis.  The most common method uses etiology or the underlying cause for the condition. Most experts feel there are three categories of scoliosis:
             <br />
             <br />
                 <ul>  
@@ -50,5 +55,6 @@ export function TypesBio(){
             </p>
             <br />
         </div>
+    </div>
     )
 }
