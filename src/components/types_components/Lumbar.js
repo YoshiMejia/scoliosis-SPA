@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import lumbar_skel from '../../media/lumbar_skel.png'
 
 export function Lumbar(){
     
@@ -7,10 +8,12 @@ export function Lumbar(){
       }, [])
 
     return(
-        <div className="lumbar-div">
+        <div className="lumbar_div">
             <div>
                 <h1 className="banner">What is Lumbar Scoliosis?</h1>
             </div>
+
+            <img src={lumbar_skel} alt='skeleton highlight lumbar portion of spine' id="lumbar_skel"/>
             <div className="lumbar_text">
                 <p>Of the several different kinds of Scoliosis, Lumbar Scoliosis appears as a C shaped curve in the lower section of the spine.  Also, this curve may occur by itself, or it may occur with thoracic scoliosis, which typically appears with an S shape to the spine as the two curves form in different directions.
                 <br />
