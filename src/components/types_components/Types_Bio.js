@@ -36,6 +36,7 @@ export function TypesBio(){
                 </Link>
             </div>
 
+        <div className="types_text">
             <p>
             There are many ways to determine the differences between the various forms of scoliosis.  The most common method uses etiology or the underlying cause for the condition. Most experts feel there are three categories of scoliosis:
             <br />
@@ -57,6 +58,7 @@ export function TypesBio(){
             </p>
             <br />
         </div>
+    </div>
     </div>
     )
 }
