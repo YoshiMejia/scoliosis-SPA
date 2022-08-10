@@ -48,6 +48,7 @@ export function TypesBio(){
                     <li> congenital</li>
                     <li> neuromuscular</li>
                 </ul>
+            <br />
             Idiopathic is the most common type of scoliosis. This means that the cause is unknown or that there is no single factor that contributes to the development of the disease.
             <br />
             Congenital forms of scoliosis result from a spinal defect present at birth. This is usually detected at a much earlier age than idiopathic forms of scoliosis.
