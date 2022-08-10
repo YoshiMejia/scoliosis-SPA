@@ -34,8 +34,8 @@
   font-size: 50px;
 }
 
-#main p{
-}
+/* #main p{
+} */
 
 .navbar {
   background-color: #d8ddde;
@@ -76,4 +76,19 @@ h1{
   width: 350px;
   float: right;
   padding: 20px 20px;
+}
+
+
+#main h4{
+ width: fit-content;
+ margin: 0 auto;
+}
+
+.types_text {
+  text-align: center;
+}
+
+.types_text ul {
+  width: 10%;
+
 }
