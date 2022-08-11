@@ -113,6 +113,7 @@ h1.banner {
   margin: 0 auto;
 }
 
+/* lumbar page */
 .lumbar_div {
   height: fit-content;
 }
@@ -142,4 +143,9 @@ h1.banner {
 
 .symptoms{
   margin-bottom: 14px;
+}
+
+/* credits page  */
+.credits_list{
+  width: 30%;
 }
