@@ -1,7 +1,8 @@
 .App{
   background-color: #cfcbca;
   font-family: 'Comfortaa', cursive;
-
+  margin: 0;
+  padding: 0;
 }
 
 .types_pic {
@@ -112,12 +113,16 @@ h1.banner {
   margin: 0 auto;
 }
 
+/* lumbar page */
+.lumbar_div {
+  height: fit-content;
+}
+
 .lumbar_text {
   text-align: center;
   width: 83%;
-margin: 0;
-  padding-top: 50px;
-  left: 700px;
+  padding: 50px 0;
+  margin: 1px;
 }
 
 .lumbar_text ul {
@@ -125,10 +130,6 @@ margin: 0;
   text-align: left;
   margin: 0 auto;
   float: right;
-}
-
-.lumbar_div {
-  height: 850px;
 }
 
 .lumbar_text h2{
@@ -142,4 +143,9 @@ margin: 0;
 
 .symptoms{
   margin-bottom: 14px;
+}
+
+/* credits page  */
+.credits_list{
+  width: 30%;
 }
