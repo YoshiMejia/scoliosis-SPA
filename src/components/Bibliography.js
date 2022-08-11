@@ -1,7 +1,7 @@
 export function Bibliography(){
     return(
         <div className="bibliography-div">
-            <h1>
+            <h1 className="banner">
                 Credits:
             </h1>
             <p>The data on this site is from multiple sources. At no point should the information found on this site be used in place of your doctors own advice. Please use this as a guide or for supplemental information, but I reccomend seeing a sports medicine doctor for physical therapy and creating your own plans for your specific ailments.</p>
