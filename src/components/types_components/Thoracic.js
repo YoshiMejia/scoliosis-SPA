@@ -8,6 +8,9 @@ export function Thoracic() {
                 <h1 className="banner">Thoracic Scoliosis</h1>
             </div>
             
+            <div className='thoracic_image'>
+                <img src={thoracic_pic} alt='spine with a thoracic curve' id="thoracic_pic"/>
+            </div>
             <p>Our doctors see Thoracic scoliosis in children between the ages of 10-15.  Most children get this type of scoliosis when they go through their first major growth spurt. It may also develop later in life as a result of muscle or connective tissue disorders and other degenerative conditions.
         <br />
             Because thoracic scoliosis affects the region of the spine that connects to the rib cage, many patients first become aware of the condition because of differences to the rib cage and shoulder blades, as well as uneven shoulder height.
