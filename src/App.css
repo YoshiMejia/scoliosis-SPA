@@ -89,6 +89,12 @@ h1.banner {
   opacity: 0.60;
 }
 
+#thoracic_pic {
+  height: 400px;
+  width: 650px;
+  position: relative;
+}
+
 /*  */
 #types_links{
   width: fit-content;
